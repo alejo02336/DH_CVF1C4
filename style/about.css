@@ -1,0 +1,10 @@
+footer {
+  position: absolute;
+  bottom: 0;
+}
+
+p {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}

@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --background-color: #c4c4c4;
+  --primary-color: #005677;
+  --title-background-color: #838383;
+  --button-ligth: #0050c0;
+}
+
+.title {
+  letter-spacing: 1rem;
+  color: white;
+  text-align: center;
+  background-color: black;
+  padding: 10px;
+}
+
+header > img {
+  display: block;
+  margin: auto;
+  height: 250px;
+  object-fit: cover;
+}
+
+body {
+  background-color: var(--background-color);
+  flex-direction: column;
+  font-family: "Instrument Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  padding: 5px;
+  background-color: var(--title-background-color);
+  color: white;
+}
+
+ul {
+  list-style: none;
+  margin: 20px;
+}
+
+ol {
+  list-style: inside;
+  margin: 20px;
+}
+
+.footer {
+  color: white;
+  background-color: var(--primary-color);
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.footer > a {
+  margin-left: 10px;
+}
+
+button {
+  display: block;
+  margin: auto;
+  padding: 10px;
+  border-radius: 5px;
+  object-fit: cover;
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+button:hover {
+  background-color: var(--button-ligth);
+  color: white;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
